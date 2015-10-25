@@ -1,4 +1,4 @@
-# d-tracr
+# d-tracer
 
 `d-tracer` is a dissonance index measurement and tracing tool.
 
