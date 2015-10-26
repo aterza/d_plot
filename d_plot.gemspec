@@ -1,16 +1,16 @@
 # coding: utf-8
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'd_tracer/version'
+require 'd_plot/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "d_tracer"
-  spec.version       = DTracer::VERSION
+  spec.name          = "d_plot"
+  spec.version       = DPlot::VERSION
   spec.authors       = ['Nicola Bernardini', 'Anna Terzaroli']
   spec.email         = ['nicb@sme-ccppd.org', 'anna.giw@libero.it']
-  spec.summary       = %q{DTracer is a dissonance index measurement and tracing tool}
+  spec.summary       = %q{DPlot is a dissonance index measurement and tracing tool}
   # spec.description   = %q{TODO: Write a longer description. Optional.}
-  spec.homepage      = 'https://github.com/nicb/d_tracer'
+  spec.homepage      = 'https://github.com/nicb/d_plot'
   spec.license       = "GNU GPL 2.0"
 
   spec.files         = `git ls-files -z`.split("\x0")
