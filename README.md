@@ -2,6 +2,8 @@
 
 [![Join the chat at https://gitter.im/nicb/d_plot](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/nicb/d_plot?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 [![Build Status](https://travis-ci.org/nicb/d_plot.svg?branch=master)](https://travis-ci.org/nicb/d_plot)
+[![Code Climate](https://codeclimate.com/github/nicb/d_plot/badges/gpa.svg)](https://codeclimate.com/github/nicb/d_plot)
+[![Test Coverage](https://codeclimate.com/github/nicb/d_plot/badges/coverage.svg)](https://codeclimate.com/github/nicb/d_plot/coverage)
 
 `DPlot` is a dissonance index measurement and tracing tool.
 
