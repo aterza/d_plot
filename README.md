@@ -1,6 +1,8 @@
-# d-tracr
+# DTracer
 
-`d-tracer` is a dissonance index measurement and tracing tool.
+[![Join the chat at https://gitter.im/nicb/d_tracer](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/nicb/d_tracer?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
+`DTracer` is a dissonance index measurement and tracing tool.
 
 It requires a score in symbolic format, a soundfile synchronized with the
 score, and a plotting software (yet to be decided).
@@ -14,7 +16,7 @@ This is very much in the works right now. YMMV.
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'd-tracer'
+gem 'd_tracer'
 ```
 
 And then execute:
@@ -23,7 +25,7 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install d-tracer
+    $ gem install d_tracer
 
 ## Usage
 
@@ -31,7 +33,7 @@ TODO: Write usage instructions here
 
 ## Contributing
 
-1. Fork it ( https://github.com/[my-github-username]/d-tracer/fork )
+1. Fork it ( https://github.com/[my-github-username]/d_tracer/fork )
 2. Create your feature branch (`git checkout -b my-new-feature`)
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)
@@ -39,7 +41,7 @@ TODO: Write usage instructions here
 
 ## License
 
-d-tracer
+DTracer
 Copyright (C) 2015 Nicola Bernardini, Anna Terzaroli
 
 This program is free software; you can redistribute it and/or modify
