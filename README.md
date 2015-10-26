@@ -1,8 +1,9 @@
 # DPlot
 
 [![Join the chat at https://gitter.im/nicb/d_plot](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/nicb/d_plot?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+[![Build Status](https://travis-ci.org/nicb/d_plot.svg?branch=master)](https://travis-ci.org/nicb/d_plot)
 
-`DTracer` is a dissonance index measurement and tracing tool.
+`DPlot` is a dissonance index measurement and tracing tool.
 
 It requires a score in symbolic format, a soundfile synchronized with the
 score, and a plotting software (yet to be decided).
