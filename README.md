@@ -1,5 +1,7 @@
 # DTracer
 
+[![Join the chat at https://gitter.im/nicb/d_tracer](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/nicb/d_tracer?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 `DTracer` is a dissonance index measurement and tracing tool.
 
 It requires a score in symbolic format, a soundfile synchronized with the
