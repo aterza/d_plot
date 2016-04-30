@@ -1,0 +1,7 @@
+<% start_pos = 0 %>
+<% last_level = 0.0 %>
+<% @system.each do |bar| %>
+  Tick_<%= bar.number %>: line from Ax.sw + (<%= bar.start_pos %>, 0.0) to Ax.sw + (<%= bar.start_pos %>, -1.8)
+  Bnum_<%= bar.number %>: sprintf("%.0f", <%= bar.number %>) with .n at Tick_<%= bar.number %>.s + (0.0, -2.2)
+  spline from Frame.sw + (<%= bar.start_pos %>, <%= last_level %>)  <% bar.dissonance.each_index do |idx|; %> to Frame.sw + (<%= bar.dissonance_pos(idx) %>, <%= (last_level = (bar.dissonance[idx].value * @system.height)) %>) <% ; end %> thickness 2
+<% end %>

@@ -8,3 +8,5 @@ group :test do
   gem 'rspec'
   gem "codeclimate-test-reporter", require: nil
 end
+
+gem 'essentia_ruby', path: '../essentia-ruby'
