@@ -7,9 +7,12 @@ examples = { 'chamber' => 4, 'marcia' => 12, 'etude' => 12 }
 
 OUTDIR = File.expand_path('..', __FILE__)
 
+mTdB = -35 # Magnitude Threshold
+mT = 10**(mTdB/20.0)
+
 examples.each do
   |name, val|
   basedir = File.expand_path(File.join(['..'] * 2, 'spec', 'fixtures', 'aggregates', name), __FILE__)
-  a = DPlot::Models::Aggregator.new(name, 'basedir' => basedir, 'outdir' => OUTDIR, 'magnitudeThreshold' => 0.01)
+  a = DPlot::Models::Aggregator.new(name, 'basedir' => basedir, 'outdir' => OUTDIR, 'magnitudeThreshold' => mT)
   a.plot
 end
